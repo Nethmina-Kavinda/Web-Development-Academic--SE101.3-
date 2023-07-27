@@ -1,1 +1,1 @@
-# Web-Development_1-SE101.3-
+# Academic Web-Development Lab Practicals
