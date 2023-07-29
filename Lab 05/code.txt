@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    
+
+
+    
+
+    
+    <div class="form">
+        <center><h3>Registration Form</h3></center>
+        <form>
+            
+            <center>
+            <table style="border: 2px solid black;">
+                
+                <tr>
+                    <td>First name  </td>
+                    <td><input type="text" name="Fname" placeholder="Enter First Name"required></td>
+                </tr>
+
+                <tr>
+                    <td>Last Name   </td>
+                    <td><input type="text" name="Lname" placeholder="Enter Last Name" required></td>
+                </tr>
+
+                <tr>
+                    <td>Mobile Number   </td>
+                    <td><input type="text" name="phone" placeholder="Enter Last Name" required></td>
+                </tr>
+                
+                <tr>
+                    <td>Gender  </td>
+                    <td><input type="radio" name="gen" value="M">Male
+                        <input type="radio" name="gen" value="F">Female
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>E-Mail  </td>
+                    <td><input type="email" name="email" placeholder="Enter Email" required></td>
+                </tr>
+                
+                <tr>
+                    <td>Favourite Music </td>
+                    <td>
+                        <input type="checkbox" name="fav">POP
+                        <input type="checkbox" name="fav">Rock
+                        <input type="checkbox" name="fav">Other
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Additional Area </td>
+                    <td style="padding: 10px;">
+                        <textarea></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"> <input type="checkbox">I agree to the terms and conditions</td>
+                </tr>
+                
+
+                <tr>
+                    <td><input type="Submit" name="log" value="submit"></td>
+                    <td><input type="Reset" name="log" value="reset"></td>
+                </tr>
+                
+            </table>
+        </center>
+        </form>
+    </div>
+
+</body>
+</html>
